@@ -119,7 +119,6 @@ def _image_to_inline_part(image: Image.Image) -> dict:
 
 
 def _classify_species_with_gemini(image: Image.Image) -> str | None:
-    """One-word fallback species classifier (used only if agent gives 'unknown')."""
     if GENAI_MODEL is None:
         return None
     try:
@@ -401,9 +400,8 @@ def safe_generate_video_forecast(prompt: str, image: Image.Image):
         return None
 
 
-# =========================================================
+
 # STREAMLIT UI
-# =========================================================
 st.set_page_config(page_title=APP_NAME, page_icon="🍁", layout="wide")
 
 st.title("🍁 FoliaScope")
