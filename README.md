@@ -1,5 +1,5 @@
 # FoliaScope
 
 AI ATL Hackathon 2025
-
-https://devpost.com/software/foliascope
+Video Demo: https://youtu.be/7XeyjeyqIEA
+Devpost: https://devpost.com/software/foliascope
